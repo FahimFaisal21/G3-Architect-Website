@@ -245,6 +245,10 @@ main > section {
     justify-items: center;
     gap: 50px;
   }
+
+  .header{
+    background-color: none;
+  }
 }
 
 
