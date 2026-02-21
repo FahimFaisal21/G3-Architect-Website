@@ -246,12 +246,10 @@ main > section {
     gap: 50px;
   }
 
-  .header{
-    background-color: none;
-  }
+header.bg-light{
+  background-color: none;
 }
-
-
+}
 
 /* Medium-size-device */
 @media screen and (min-width:576px) and (max-width:992px){
