@@ -218,7 +218,7 @@ main > section {
 /* footer */
 .footer-describtion{
   margin-top: 130px;
-  margin-bottom: 216px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -234,8 +234,8 @@ main > section {
     margin-left: 20px;
   }
   #experience-badge{
-    margin-top: 20px;
-    margin-left: 20px;
+      margin: 25px auto;
+      display: block;
   }
   .facts-container{
     justify-items: center;
@@ -245,10 +245,20 @@ main > section {
     justify-items: center;
     gap: 50px;
   }
-
-header.bg-light{
+.bg-light{
   background-color: none;
 }
+.section-title,.fact-describtion,.our-features,.feature-section-describtion,.feature-card{
+  text-align: center;
+  margin-left: 3px;
+}
+.features,.some-facts,.our-sponsors{
+  margin-top: 15px;
+}
+.footer-describtion{
+  margin-top: 60px;
+}
+
 }
 
 /* Medium-size-device */
