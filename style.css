@@ -261,9 +261,20 @@ main > section {
 .footer-describtion{
   margin-top: 60px;
 }
-
+.sponsor-companies{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 }
-
+.sponsor-companies img{
+  width: 80px;
+  height: auto;
+}
+  .sponsor-companies img{
+    filter: none;
+  }
+}
 /* Medium-size-device */
 @media screen and (min-width:576px) and (max-width:992px){
   .teams,.features{
@@ -280,5 +291,6 @@ main > section {
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
   }
+
 
 }
