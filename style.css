@@ -246,14 +246,17 @@ main > section {
     gap: 50px;
   }
 .bg-light{
-  background-color: none;
+  background-color: white;
 }
 .section-title,.fact-describtion,.our-features,.feature-section-describtion,.feature-card{
   text-align: center;
   margin-left: 3px;
 }
-.features,.some-facts,.our-sponsors{
+.some-facts,.our-sponsors{
   margin-top: 15px;
+}
+.features{
+  margin-top: 60px;
 }
 .footer-describtion{
   margin-top: 60px;
